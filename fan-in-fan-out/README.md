@@ -3,13 +3,6 @@
 - **Fan-Out**: Multiple worker goroutines (workers) are started, each of which processes a subset of tasks concurrently.
 - **Fan-In**: After the workers process the tasks, their results are collected and processed in a single channel.
 
-## Concurrency Pattern Overview
-
-1. **Fan-Out**:
-   - A task queue is shared among multiple worker goroutines. Each worker pulls a task from the queue and processes it.
-2. **Fan-In**:
-   - The results from the workers are sent to a results channel. After all workers finish processing, the results channel is closed and the results are printed.
-
 ## Features
 - The worker pool dynamically scales based on the number of workers.
 - The tasks are evenly distributed among the workers.

@@ -9,7 +9,7 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 
 1. **[Worker Pool](worker-pool/README.md)** – Multiple workers process tasks from a shared channel.  
 2. **[Fan-Out, Fan-In](fan-in-fan-out/README.md)** – Distributes tasks across multiple goroutines and aggregates results.  
-3. **Producer-Consumer** – One set of goroutines produce data, another consumes it.  
+3. **[Producer-Consumer](producer-consumer/README.md)** – One set of goroutines produce data, another consumes it.  
 4. **Timeout** – Prevents goroutines from waiting indefinitely using `time.After` or `context.Context`.  
 5. **Rate Limiting** – Controls the frequency of execution using `time.Ticker` or token bucket algorithms.  
 6. **Closing Channels** – Signals completion by closing channels to prevent goroutine leaks.  
@@ -27,6 +27,9 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 ```bash
 .
 ├── fan-in-fan-out
+│   ├── main.go
+│   └── README.md
+├── producer-consumer
 │   ├── main.go
 │   └── README.md
 ├── README.md
