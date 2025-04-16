@@ -18,7 +18,7 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 9. **Ticker Pattern** – Uses `time.Ticker` to execute periodic tasks.  
 10. **Cancellation with Context** – Uses `context.Context` to propagate cancellation signals across goroutines.  
 11. **Or-Done Channel** – Merges multiple channels and stops when any one of them is done.  
-12. **Bounded Work Queue** – Limits the number of jobs in a queue to prevent system overload.               |
+12. **Bounded Work Queue** – Limits the number of jobs in a queue to prevent system overload.               
 
 ---
 
