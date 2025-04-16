@@ -1,4 +1,4 @@
-# Go Concurrency Patterns
+# Concurrency Patterns
 
 This is a personal collection of Go concurrency patterns I’ve implemented to better understand how goroutines, channels, and context work in real-world systems. Each pattern is broken down into simple, focused examples that are easy to run and experiment with.
 
