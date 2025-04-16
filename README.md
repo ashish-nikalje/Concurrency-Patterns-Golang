@@ -26,6 +26,9 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 
 ```bash
 .
+├── fan-in-fan-out
+│   ├── main.go
+│   └── README.md
 ├── README.md
 └── worker-pool
     ├── main.go
