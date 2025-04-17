@@ -46,11 +46,13 @@ code@code Concurrency-Patterns-Golang % tree
 ├── select-statement
 │   ├── main.go
 │   └── README.md
+├── ticker
+│   ├── main.go
+│   └── README.md
 ├── timeout
 │   ├── main.go
 │   └── README.md
 └── worker-pool
     ├── main.go
     └── README.md
-
 ```
