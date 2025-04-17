@@ -15,7 +15,7 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 6. **[Closing Channels](closing-channel/README.md)** – Signals completion by closing channels to prevent goroutine leaks.  
 7. **[Select Statement](select-statement/README.md)** – Listens to multiple channels and handles inputs dynamically.  
 8. **[Pipeline Pattern](pipeline/README.md)** – Chains multiple stages of processing using channels for efficiency.  
-9. **Ticker Pattern** – Uses `time.Ticker` to execute periodic tasks.  
+9. **[Ticker Pattern](ticker/README.md)** – Uses `time.Ticker` to execute periodic tasks.  
 10. **Cancellation with Context** – Uses `context.Context` to propagate cancellation signals across goroutines.  
 11. **Or-Done Channel** – Merges multiple channels and stops when any one of them is done.  
 12. **Bounded Work Queue** – Limits the number of jobs in a queue to prevent system overload.               
