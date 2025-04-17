@@ -25,14 +25,30 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 ## Structure
 
 ```bash
+code@code Concurrency-Patterns-Golang % tree
 .
+├── closing-channel
+│   ├── main.go
+│   └── README.md
 ├── fan-in-fan-out
+│   ├── main.go
+│   └── README.md
+├── pipeline
 │   ├── main.go
 │   └── README.md
 ├── producer-consumer
 │   ├── main.go
 │   └── README.md
+├── rate-limiting
+│   ├── main.go
+│   └── README.md
 ├── README.md
+├── select-statement
+│   ├── main.go
+│   └── README.md
+├── timeout
+│   ├── main.go
+│   └── README.md
 └── worker-pool
     ├── main.go
     └── README.md
