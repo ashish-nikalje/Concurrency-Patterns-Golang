@@ -17,7 +17,7 @@ This is a personal collection of Go concurrency patterns I’ve implemented to b
 8. **[Pipeline Pattern](pipeline/README.md)** – Chains multiple stages of processing using channels for efficiency.  
 9. **[Ticker Pattern](ticker/README.md)** – Uses `time.Ticker` to execute periodic tasks.  
 10. **[Cancellation with Context](cancellation-signal/README.md)** – Uses `context.Context` to propagate cancellation signals across goroutines.  
-11. **Bounded Work Queue** – Limits the number of jobs in a queue to prevent system overload.               
+11. **[Bounded Work Queue](bounding-queue/readme.md)** – Limits the number of jobs in a queue to prevent system overload.               
 
 ---
 
